@@ -1,5 +1,5 @@
 # phoenix_sample
-My first phoenix project
+My first [phoenix](http://www.phoenixframework.org/v0.11.0) project
 
 ## Requirements
 https://www.vagrantup.com/downloads.html
