@@ -31,4 +31,5 @@ config :phoenix_sample, PhoenixSample.Repo,
   adapter: Ecto.Adapters.Postgres,
   username: "postgres",
   password: "postgres",
-  database: "phoenix_sample_dev"
+  database: "phoenix_sample_dev",
+  size: 10 # The amount of database connections in the pool

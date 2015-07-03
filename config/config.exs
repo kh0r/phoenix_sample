@@ -8,9 +8,9 @@ use Mix.Config
 # Configures the endpoint
 config :phoenix_sample, PhoenixSample.Endpoint,
   url: [host: "localhost"],
-  root: Path.expand("..", __DIR__),
-  secret_key_base: "3gzoGw1XhrZhEiiUswxe29DRtxQrKWIWvl/xSA3r2jupynafXQxGyiZp25jhbLwi",
-  debug_errors: false,
+  root: Path.dirname(__DIR__),
+  secret_key_base: "R5m2Tae639Y5OSak8LXM0NDfmxfoQ5h4SfAdgkjYRkDq6x6jRfroBDAQ5CuHeOH9",
+  render_errors: [default_format: "html"],
   pubsub: [name: PhoenixSample.PubSub,
            adapter: Phoenix.PubSub.PG2]
 

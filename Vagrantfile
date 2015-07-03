@@ -8,7 +8,7 @@ $script = <<SCRIPT
 echo I am provisioning...
 wget -N http://packages.erlang-solutions.com/erlang-solutions_1.0_all.deb && sudo dpkg -i erlang-solutions_1.0_all.deb
 sudo apt-get update && sudo apt-get -y install git=1:1.9.1-1ubuntu0.1 elixir=1.0.4-1 npm=1.3.10~dfsg-1 nodejs-legacy=0.10.25~dfsg2-2ubuntu1
-mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v0.11.0/phoenix_new-0.11.0.ez --force
+mix archive.install https://github.com/phoenixframework/phoenix/releases/download/v0.14.0/phoenix_new-0.14.0.ez --force
 SCRIPT
 
 Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|

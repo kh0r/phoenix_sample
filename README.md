@@ -6,7 +6,6 @@ vagrant up
 vagrant ssh
 cd /var/www/phoenix/phoenix_sample/
 mix deps.get
-npm install
 mix phoenix.server
 ```
 
