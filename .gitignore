@@ -1,5 +1,6 @@
-# Mix artifacts
+# App artifacts
 /_build
+/db
 /deps
 /*.ez
 
@@ -24,3 +25,5 @@ erl_crash.dump
 
 # Ignore local vagrant
 .vagrant
+
+npm-debug.log

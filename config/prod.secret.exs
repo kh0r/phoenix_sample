@@ -4,7 +4,7 @@ use Mix.Config
 # you likely want to automate and keep it away from
 # your version control system.
 config :phoenix_sample, PhoenixSample.Endpoint,
-  secret_key_base: "F+RMC3Neh1ncmar+nWTEHxR/4xQX75OBiWiOIdo6PIeHXJOFi7ngB0SQcNxTjXmY"
+  secret_key_base: "pyop1/5BqM7pOyIYq5YdKhfjXe6mN/uaJjayBgP8ECSGXlVcyLhtbyo8u7gxceHw"
 
 # Configure your database
 config :phoenix_sample, PhoenixSample.Repo,
@@ -12,4 +12,4 @@ config :phoenix_sample, PhoenixSample.Repo,
   username: "postgres",
   password: "postgres",
   database: "phoenix_sample_prod",
-  size: 20 # The amount of database connections in the pool
+  pool_size: 20

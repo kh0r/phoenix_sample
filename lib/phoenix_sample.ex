@@ -10,7 +10,7 @@ defmodule PhoenixSample do
       # Start the endpoint when the application starts
       supervisor(PhoenixSample.Endpoint, []),
       # Start the Ecto repository
-      worker(PhoenixSample.Repo, []),
+      supervisor(PhoenixSample.Repo, []),
       # Here you could define other workers and supervisors as children
       # worker(PhoenixSample.Worker, [arg1, arg2, arg3]),
     ]

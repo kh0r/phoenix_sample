@@ -8,8 +8,10 @@ https://www.vagrantup.com/downloads.html
 ```
 vagrant up
 vagrant ssh
-cd /var/www/phoenix/phoenix_sample/
+cd /var/www/phoenix/
 mix deps.get
+mix ecto.create && mix ecto.migrate
+npm install
 mix phoenix.server
 ```
 
